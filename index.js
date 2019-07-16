@@ -23,9 +23,9 @@ function dec(a){
 }
 
 function makeInt(a){
-  return parseInt(a, 10);
+  return parseInt(a);
 }
 
-function preserveDecimal(n){
-  return parseFloat(n);
+function preserveDecimal(a){
+  return parseFloat(a);
 }
